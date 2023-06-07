@@ -1,4 +1,10 @@
 body {
     margin: 0;
-    background-color: steelblue;
+    animation: bg-color-change 5s infinite alternate;
 }
+
+@keyframes bg-color-change {
+    0% {background-color: hotpink}
+    50% {background-color: salmon}
+    100% {background-color: coral}
+};
