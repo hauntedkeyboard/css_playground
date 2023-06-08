@@ -1,10 +1,25 @@
 body {
     margin: 0;
-    animation: bg-color-change 5s infinite alternate;
+    /* animation: bg-color-change 5s infinite alternate; */
+    background-color: salmon;
+
 }
 
-@keyframes bg-color-change {
+/* @keyframes bg-color-change {
     0% {background-color: hotpink}
     50% {background-color: salmon}
     100% {background-color: coral}
-};
+}; */
+
+
+.section-one {
+    min-height: 30vh;
+    background-image: radial-gradient(circle, 
+                                        transparent 1rem, 
+                                        hotpink 2rem,
+                                        pink 3rem,
+                                        pink 7rem,
+                                        darkgrey 9rem);
+    background-size: 20rem 20rem;
+    
+}
